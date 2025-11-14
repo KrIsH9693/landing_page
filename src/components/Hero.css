@@ -1,0 +1,153 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 20px;
+  background: #f9fbfc;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-left {
+  max-width: 600px;
+  text-align: center;
+}
+
+.hero-left h1 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.3;
+}
+
+.hero-left h1 span {
+  color: #22c55e;
+}
+
+.hero-desc {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.btn-view {
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #111;
+  background: #e5e7eb;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-view:hover {
+  background: #d1d5db;
+}
+
+.btn-touch {
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #22c55e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-touch:hover {
+  background: #1faa52;
+}
+
+/* ------------ FORM SECTION ------------ */
+
+.hero-form {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 28px 24px;
+  border-radius: 14px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.hero-form h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.hero-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hero-form input,
+.hero-form textarea {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.hero-form input:focus,
+.hero-form textarea:focus {
+  border-color: #22c55e;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: #22c55e;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background: #1faa52;
+}
+
+/* ----------- RESPONSIVE ------------ */
+
+@media (min-width: 768px) {
+  .hero-section {
+    flex-direction: row;
+    padding: 100px 60px;
+    align-items: flex-start;
+  }
+
+  .hero-left {
+    text-align: left;
+  }
+
+  .hero-buttons {
+    justify-content: flex-start;
+  }
+
+  .hero-left h1 {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-left h1 {
+    font-size: 52px;
+  }
+}

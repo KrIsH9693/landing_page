@@ -1,0 +1,67 @@
+/* Full footer background */
+.footer-section {
+  background: #000 !important;    /* Pure black */
+  color: #fff !important;
+}
+
+/* Logo */
+.footer-logo {
+  max-width: 160px;
+}
+
+/* Social icons */
+.social-icon {
+  color: #fff;
+  transition: 0.3s;
+}
+.social-icon:hover {
+  color: #28c76f;
+}
+
+/* Headings (green) */
+.footer-heading {
+  color: #28c76f;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-list a:hover {
+  color: #28c76f;
+}
+
+/* CONTACT US white text fix */
+.footer-text {
+  color: #fff !important;   /* FORCE white text */
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+/* Bottom green strip */
+.footer-bottom {
+  background: #28c76f;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.footer-bottom-text {
+  margin: 0;
+  color: #000;
+  font-weight: bold;
+}

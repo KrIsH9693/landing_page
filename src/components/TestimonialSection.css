@@ -1,0 +1,33 @@
+.client-testimonials {
+  background: linear-gradient(to left, #f9f9f9, #fff);
+}
+
+.testimonial-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.testimonial-card img {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.play-button {
+  color: #28c76f;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.3s;
+}
+
+.play-button:hover {
+  transform: scale(1.2);
+}
+
+.rating {
+  margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+.custom-navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.logo-text {
+  color: #3a3a3a;
+  font-size: 1.3rem;
+}
+
+.nav-links .nav-link,
+.nav-links .dropdown-toggle {
+  color: #343a40;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .dropdown-toggle:hover {
+  color: #1aa26b;
+}
+
+.get-in-touch-btn {
+  background-color: transparent;
+  border: 2px solid #1aa26b;
+  color: #1aa26b;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 18px;
+  transition: all 0.3s ease;
+}
+
+.get-in-touch-btn:hover {
+  background-color: #1aa26b;
+  color: #fff;
+}
+
+.arrow {
+  font-size: 1rem;
+  margin-left: 4px;
+}

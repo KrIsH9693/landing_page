@@ -1,0 +1,21 @@
+.how-we-work-section {
+  background-color: #f9f9f9;
+}
+
+.how-we-work-section h2 span {
+  color: #16a34a; /* success green */
+}
+
+.how-we-work-section ul li {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.how-we-work-section img {
+  max-width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.how-we-work-section img:hover {
+  transform: scale(1.03);
+}

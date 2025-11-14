@@ -1,0 +1,94 @@
+.tech-section {
+  padding: 70px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.tech-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1c1f23;
+}
+
+.tech-subtitle {
+  color: #6d6d6d;
+  max-width: 700px;
+  margin: 12px auto 50px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* 2 Groups (Left & Right) */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+/* Each Group */
+.tech-group {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.tech-card {
+  padding: 35px 28px;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Icon */
+.tech-icon {
+  width: 60px;
+  margin-bottom: 18px;
+}
+
+/* Title */
+.tech-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #1c1f23;
+}
+
+/* Skills */
+.tech-skills {
+  color: #4e4e4e;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .tech-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tech-group {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 680px) {
+  .tech-card {
+    text-align: center;
+  }
+
+  .tech-grid {
+    gap: 20px;
+  }
+
+  .tech-group {
+    justify-content: center;
+  }
+}

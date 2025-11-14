@@ -1,0 +1,43 @@
+.top-companies-section {
+  background-color: #ffffff;
+}
+
+.top-companies-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.top-companies-section .text-green {
+  color: #22c55e;
+}
+
+.top-companies-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.top-companies-section li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.top-companies-section li svg {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .top-companies-section {
+    padding: 40px 20px;
+  }
+
+  .top-companies-section h2 {
+    font-size: 28px;
+  }
+
+  .top-companies-section li {
+    font-size: 16px;
+  }
+}
