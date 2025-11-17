@@ -1,7 +1,7 @@
 import "./HireSection.css";
 
-import hireImg1 from "../assets/Hire1.png"; 
-import hireImg2 from "../assets/Hire2.png"; 
+import hireImg1 from "../assets/hire1.png"; 
+import hireImg2 from "../assets/hire2.png"; 
 import { CheckCircle, XCircle } from "lucide-react";
 
 const HireSection = () => {
