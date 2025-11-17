@@ -8,15 +8,15 @@ const Header: React.FC = () => {
     <Navbar expand="lg" className="custom-navbar py-3">
       <Container>
         {/* Logo */}
-        <Navbar.Brand href="#" className="logo d-flex align-items-center">
+        {/* <Navbar.Brand href="#" className="logo d-flex align-items-center">
           <img
             src="/logoipsum.svg" 
             alt="Logo"
             height="35"
             className="me-2"
-          />
+          /> */}
           <span className="logo-text fw-bold">Logoipsum</span>
-        </Navbar.Brand>
+        {/* </Navbar.Brand> */}
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
