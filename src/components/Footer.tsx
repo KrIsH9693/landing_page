@@ -10,7 +10,7 @@ const Footer = () => {
 
           {/* Logo + Social Icons */}
           <div className="col-12 col-md-4 text-center text-md-start mb-4 mb-md-0">
-            <img src="/logo.png" alt="Logo" className="footer-logo mb-3" />
+            {/* <img src="/logo.png" alt="Logo" className="footer-logo mb-3" /> */}
 
             <div className="social-links">
               <a href="#" className="social-icon me-3"><FaFacebookF size={20} /></a>
